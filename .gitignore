@@ -1,0 +1,43 @@
+# Ignore huge data
+data/full_dataset/
+*.csv
+*.json
+!data/samples/sample_data.json
+!trm_proofs/*.json
+!docs/images/*
+qdrant_local_storage/
+
+
+# Ignore Models
+*.gguf
+*.bin
+*.pt
+
+# Ignore System/Env
+__pycache__/
+.env
+venv/
+.venv/
+.vscode/
+node_modules/
+
+# LaTeX
+*.aux
+*.log
+*.out
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+!docs/*.tex
+
+# Python
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Ignore accidental nested home directory
+home/
+
+docs/internal/
